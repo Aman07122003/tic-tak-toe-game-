@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Roboto+Mono:ital,wght@0,100;1,100&family=Roboto:wght@100&family=Skranji&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style-type: none;
+    color: white;
+    margin-top: 17px;
+    margin-right: 5px;
+     
+}
+
+
+nav{
+    height: 65px;
+    width: 100%;
+    background-color: black;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    
+}
+
+li h1{
+    font-family: 'Roboto', sans-serif;
+}
+
+.col{
+    border: 2px solid black;
+    height: 75px;
+    width: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Skranji', cursive;
+    font-size: larger;
+}
+
+
+.row{
+    display: flex;
+}
+.container{
+    height: 900px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid{
+    margin-bottom: 50px;
+}
+
+.bl{
+    border-left: none;
+}
+
+.bb{
+    border-bottom: none;
+}
+
+.bt{
+    border-top: none;
+}
+
+.br{
+    border-right: none;
+}
+/* Add this CSS rule for the hover effect */
+.col:hover {
+    background-color: rgb(247, 227, 247); /* Change to your desired color */
+    cursor: pointer;
+  }
+  
